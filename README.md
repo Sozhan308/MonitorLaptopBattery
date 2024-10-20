@@ -1,6 +1,6 @@
 # Battery Monitor Service
 
-A Python-based Windows service that monitors the battery status of your laptop. The service automatically puts the system to sleep when the laptop is running on battery power (i.e., not connected to a charger). The service runs in the background as a Windows service.
+A Python-based Windows service that monitors the battery status of your laptop. The service automatically puts the system to sleep when the laptop is running on battery power (i.e., not connected to a charger). The script runs in the background as a Windows service.
 
 ## Features
 
