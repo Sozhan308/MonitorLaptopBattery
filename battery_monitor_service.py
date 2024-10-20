@@ -7,6 +7,11 @@ import win32event
 import servicemanager
 
 class BatteryMonitorService(win32serviceutil.ServiceFramework):
+    """
+    Windows Service that monitors the battery status and puts the system to sleep
+    when the laptop is not connected to a charger.
+    """
+    
     _svc_name_ = "BatteryMonitorService"
     _svc_display_name_ = "Battery Monitor Service"
     _svc_description_ = "A service that monitors the laptop's battery and puts it to sleep if it is not charging."
